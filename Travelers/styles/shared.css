@@ -1,0 +1,58 @@
+body{
+    font-family: "quicksand" ,sans-serif;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 15px 60px;
+    position: absolute; 
+    width: 100%;
+    box-sizing: border-box;
+}
+#page-logo a{
+    font-family: "oleo script",sans-serif;
+    color: rgb(229, 233, 27);
+    padding: 5px;
+    font-size: 50px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header ul{
+    padding: 10px;
+    margin-top: 5px;
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;  
+}
+nav a{
+     text-decoration: none;
+     margin-left: 25px;
+     color: rgb(229, 233, 27);
+     font-size: 20px;
+     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+     padding: 13px;
+     border-radius: 6px;
+}
+#hero{
+    align-self: center;
+    padding: 5px;
+}
+nav a:hover{
+    color: rgb(88,88,88);
+    background-color: rgb(255, 251, 0);
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 50px;
+
+}
