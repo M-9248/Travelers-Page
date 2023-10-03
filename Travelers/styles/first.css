@@ -9,7 +9,7 @@ body{
 }
 #hero {
   height: 800px;
-  background-image: url("/images/places/ocean.jpg");
+  background-image: url("../images/places/ocean.jpg");
   background-size: cover;
   background-position: center;
 }
